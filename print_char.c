@@ -3,6 +3,7 @@
 /**
  * print_char - prints a character to stdout
  * @args: variadic parameter
+ *
  * Return: number of characters printed
  */
 
