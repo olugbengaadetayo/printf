@@ -15,7 +15,6 @@ int (*check_specifier(const char*))(va_list);
  * @f: function to handle printing
  */
 
-;
 typedef struct func
 {
 	char *t;
