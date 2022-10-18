@@ -6,8 +6,8 @@
 #include <stdio.h>
 #include <unistd.h>
 
-int _printf(const char *format, ...);
-int (*check_specifier(const char*))(va_list);
+int _printf(const char *format, ...)
+int (*check_specifier(const char*))(va_list)
 
 /**
  * struct func - struct for specifier to printer
@@ -15,10 +15,11 @@ int (*check_specifier(const char*))(va_list);
  * @f: function to handle printing
  */
 
+;
 typedef struct func
 {
 	char *t;
-	int (*f)(va_list);
+	int (*f)(va_list);/*pointer*/
 } func_t;
 
 int print_char(va_list);
