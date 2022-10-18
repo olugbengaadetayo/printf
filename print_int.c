@@ -24,8 +24,7 @@ int print_int(va_list args)
 		numb = numb / 10;
 		if (numb == 0)
 			break;
-		else
-			i++;
+		i++;
 	}
 
 	/*Write the contents of the array to stdout*/
